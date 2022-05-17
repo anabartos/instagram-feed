@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.Card {
+    /* aqui van las reglas css que se reflejan en todos los hijos de Post, es tu contenedor principal*/
+    width: 50%; 
+    border: 1px solid red;
+}
+
+.Card-Header {
+    /* border: 5px solid yellow; */
+    display: flex;
+    padding: 10px;
+}
+
+.icon-container{
+    /* border: 5px solid gold; */
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hamburguer{
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: baseline;
+}
+.Post-info{
+    /* border: 5px solid violet; */
+    width:85%;
+    height: 60px;
+    text-align: left;
+    margin: 0 auto; 
+    justify-content:flex-start;
+}
+.post-header {
+    width: 50px;
+    height: 50px;
+}
+
+.post-header text {
+    width: 50px;
+    height: 50px;
+}
+
+.Post-Info {
+    /* border: 5px solid green; */
+}
+
+.Card-body {
+    /* border: 5px solid brown; */
+}
+
+.image {
+    
+    /*ojo con los px, son medidas fijas, no responden bien en responsive*/
+    /*width: /*1200px; 50%*/
+    /* max-width: 50%; */
+    /*con % siempre va a responder a partir de ese valor*/
+    height: auto;
+    /*esto se pone para que no se deforme*/
+    
+}
+
+.body-post {
+    
+    padding: 10px;
+
+}
+
+.Card-Footer {
+    
+    /* border: 5px solid Pink; */
+    padding: 10px;
+    
+}
+
+.interaction{
+    
+    /* border: 5px solid black; */
+    height: 75px;
+    padding: 10px;
+    
+}
+.content{
+    /* border: 5px solid rebeccapurple; */
+}
+.book-mark{
+    display: inline-flex;
+    float: right;
+}
+h4{
+    margin: 5px;
+    font-weight: bolder;
+}
+p{
+    margin: 5px;
+}
+img{
+    width: 100%;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    
+}
